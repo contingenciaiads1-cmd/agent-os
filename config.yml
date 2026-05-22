@@ -1,10 +1,15 @@
 version: 3.0
-default_profile: default
+default_profile: iads
 
-# Optional: define inheritance relationships for profiles
-# Profiles not listed here still work, they just have no inheritance
+# Perfiles IADS — heredan del default y agregan contexto propio
+profiles:
+  iads:
+    inherits_from: default
+    description: "Ecosistema IADS — crmIads (PHP/CI4 + Baileys) + crmPrueba (React/Supabase)"
+
+# Para agregar un perfil por repo específico:
 # profiles:
-#   profile-a:
-#     inherits_from: default
-#   profile-b:
-#     inherits_from: profile-a
+#   crm-iads:
+#     inherits_from: iads
+#   crm-prueba:
+#     inherits_from: iads
