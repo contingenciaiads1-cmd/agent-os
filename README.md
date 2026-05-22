@@ -95,7 +95,7 @@ El ecosistema IADS tiene **dos repos** con necesidades distintas:
 - Cache: Redis + Bull queues
 - VPS: `161.132.41.141` / `crm.iads.solutions` / `api.iads.solutions`
 
-### `crmPrueba` — Producto nuevo (React/Supabase)
+### `agent-os-IADS` — Producto nuevo (spine de agentes IA)
 
 **El problema:** el spine de agentes IA (F0–F7) está por construirse. Cada sesión de IA puede armar el código de una manera distinta — componentes con naming diferente, patrones de Supabase inconsistentes, lógica de RLS replicada de formas distintas.
 
@@ -138,7 +138,7 @@ repo/
 **No es un CRM.** Es una **fábrica de negocios verticales operados con agentes IA**, vendida **DFY (done-for-you) + reventa** en LATAM. Se vende **resultado gestionado high-ticket**, no licencia de software.
 
 Modelo mental: **Workspace / Brain / Flow**
-- **Workspace** = panel limpio que ve el cliente (crmPrueba, su marca)
+- **Workspace** = panel limpio que ve el cliente (agent-os-IADS, su marca)
 - **Brain** = Supabase: grafo de cliente + conocimiento + RLS multi-tenant
 - **Flow** = motor que ejecuta secuencias en el tiempo (recupero carrito, paso-a-humano) — el SPINE
 

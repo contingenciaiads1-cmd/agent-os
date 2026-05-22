@@ -17,7 +17,7 @@ Se vende **resultado gestionado high-ticket**: el cliente no configura nada — 
 
 Modelo mental: **Workspace / Brain / Flow**
 
-- **Workspace** = panel limpio que ve el cliente (crmPrueba, con su marca). Ve dashboard, pipeline, bandeja de mensajes, y kill switch.
+- **Workspace** = panel limpio que ve el cliente (agent-os-IADS, con su marca). Ve dashboard, pipeline, bandeja de mensajes, y kill switch.
 - **Brain** = Supabase: grafo de cliente + base de conocimiento + RLS multi-tenant. Cada cliente tiene su propio espacio aislado.
 - **Flow** = motor que ejecuta secuencias en el tiempo (recupero carrito, reintentos, paso-a-humano, alertas). Es el SPINE — la columna vertebral que aún no existe y es el grueso del trabajo.
 

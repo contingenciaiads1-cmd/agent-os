@@ -10,7 +10,7 @@ Primeros 2-5 pilotos DFY con negocios eCommerce en LATAM.
 ## Fases
 
 ### P0 — Fix Gemini server-side (BLOQUEANTE)
-- Clave Gemini expuesta en browser (crmPrueba) — mover a server-side
+- Clave Gemini expuesta en browser (agent-os-IADS) — mover a server-side
 - Bloqueado por billing Google Cloud (lo activa el jefe)
 - **Sin esto:** el agente IA no puede operar de forma segura ni escalable
 
@@ -50,7 +50,7 @@ Primeros 2-5 pilotos DFY con negocios eCommerce en LATAM.
 | Canal barato | QR Baileys via bridge (riesgo ban asumido) |
 | Conocimiento por cliente | Espacio propio por tenant (como Notion interno) |
 | Conectar Notion/Drive real del cliente | v2, NO entra en VMV |
-| CRM visible del cliente | crmPrueba Workspace scoped (dashboard + pipeline + bandeja + kill switch) |
+| CRM visible del cliente | agent-os-IADS Workspace scoped (dashboard + pipeline + bandeja + kill switch) |
 | IG/Telegram | P6, futuro |
 
 ---

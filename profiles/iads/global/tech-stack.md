@@ -1,6 +1,6 @@
 # Tech Stack — Ecosistema IADS
 
-## Repo: crmIads (CRM operacional)
+## Repo: crmIads — CRM operacional (músculo WhatsApp + MCP)
 
 **Backend:**
 - PHP 8.3 + CodeIgniter 4 (Stackposts base, rebrand IADS)
@@ -27,7 +27,7 @@
 
 ---
 
-## Repo: crmPrueba (producto nuevo)
+## Repo: agent-os-IADS — producto nuevo (spine de agentes IA)
 
 **Frontend:**
 - React 19 + TypeScript
